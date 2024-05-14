@@ -1,6 +1,6 @@
 
 import { StyleSheet, Text, View, Image } from "react-native";
-import Login from "../components/Screens/Login"
+import Login from "../components/Screens/Login";
 import { ClerkProvider, SignedIn, SignedOut } from "@clerk/clerk-expo";
 import * as SecureStore from "expo-secure-store";
 import { NavigationContainer } from "@react-navigation/native";
